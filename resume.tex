@@ -1,0 +1,68 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Oskar Stephens}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{4116 SE 27th Ave}
+ \moveleft.5\hoffset\centerline{Portland, OR 97202}
+ \moveleft.5\hoffset\centerline{(541) 760-1353}
+
+
+\begin{resume}
+ 
+\section{OBJECTIVE}  A fulfilling and creative position 
+ 
+
+\section{EDUCATION} {\sl Bachelor of Science,} Computer Science \\
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+                Oregon State University, Corvallis, OR, 
+                December 2009 \\
+                Concentration: Computer Systems \\
+ 
+ 
+\section{ SKILLS} {\sl Languages \& Software:} Java, Python, C,
+         Bash, Git, Subversion, Django(limited), 
+                VIM, MySQL, JProfiler \\
+                {\sl Operating Systems:} Linux(Ubuntu/Gentoo), Mac OS X, Windows 
+ 
+\section{EXPERIENCE} {\sl Software Engineer II} \hfill June 2009 -  \\
+                Novellus Systems,  Tualatin ,OR 
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Developed realtime control software for 
+				 plasma deposition semicondunctor equipment using Java and Linux/QNX
+                \item Transitioned development team to Git/Gitlab and JUnit 
+                \item Developed UI and tools for Vertical NAND memory creation 
+                \end{itemize}
+ 
+                {\sl Student Developer} \hfill            January 2007 - March 2008, September 2008 - June 2009 \\
+                Oregon State University Open Source Lab (www.osuosl.org)
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Developed printing system on the OLPC project
+				 \item Developed internal web based server room management platform
+                 \end{itemize}
+
+                {\sl Software Developer Intern} \hfill         \\
+                Boeing Corporation, Gresham, OR
+                  \begin{itemize}
+                   \item Developed and maintained intranet websites (.NET)
+				   \item Developed .NET application for managing part measurement files
+                   \end{itemize} 
+ 
+
+\end{resume}
+\end{document}
+
+
+
+
